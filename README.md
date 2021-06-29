@@ -1,12 +1,6 @@
-# terraform-module-template
+# api-gateway-lambda
 
-[![Build Status](https://drone.techservices.illinois.edu/api/badges/techservicesillinois/terraform-module-template/status.svg)](https://drone.techservices.illinois.edu/techservicesillinois/terraform-module-template)
-
-<!--
-# PUT MODULE NAME HERE (drop the terraform-aws)
-
-# Change REPO to name of the repo
-[![Build Status](https://drone.techservices.illinois.edu/api/badges/techservicesillinois/REPO/status.svg)](https://drone.techservices.illinois.edu/techservicesillinois/REPO)
+[![Terraform actions status](https://github.com/techservicesillinois/terraform-aws-api-gateway-lambda/workflows/terraform/badge.svg)](https://github.com/techservicesillinois/terraform-aws-api-gateway-lambda/actions)
 
 # TODO ADD DESCRIPTION HERE
 
