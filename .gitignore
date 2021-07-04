@@ -2,6 +2,11 @@
 
 terraform.tfstate
 terraform.tfstate.*
+terraform.tfvars
+
+provider.tf
+
+deployment.zip
 
 .terraform
 .terragrunt-cache

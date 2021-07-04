@@ -1,4 +1,5 @@
-# TODO: put code here or delete this file!
-variable "foo" {
-  default = ""
+variable "domain" {
+}
+
+variable "hostname" {
 }
