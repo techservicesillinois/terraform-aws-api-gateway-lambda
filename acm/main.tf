@@ -1,7 +1,7 @@
 locals {
   create_acm_cert = var.create_acm_cert && var.create_route53_record
   acm_cert_arn    = local.create_acm_cert ? aws_acm_certificate_validation.default[0].certificate_arn : data.aws_acm_certificate.selected[0].arn
-  fqdn            = length(var.hostname) > 0 ? "${var.hostname}.${var.domain}" : "${var.domain}" 
+  fqdn            = length(var.hostname) > 0 ? "${var.hostname}.${var.domain}" : "${var.domain}"
 }
 
 data "aws_acm_certificate" "selected" {
