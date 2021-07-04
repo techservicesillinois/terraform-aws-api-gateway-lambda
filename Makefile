@@ -8,7 +8,8 @@ EGREP := egrep $(GOPTS)
 SRCS := --include=*.tf
 DOCS := --include=README.md
 
-all: tfc test
+#all: tfc test
+all: test
 
 tfc: .terraform
 	@# Basic Terraform validation and formating checks
